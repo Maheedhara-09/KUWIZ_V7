@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-socketio
+sqlalchemy
+psycopg2-binary
+python-jose
+passlib
+bcrypt==4.0.1
+qrcode
+pillow
+python-multipart
+pydantic-settings
+email-validator
