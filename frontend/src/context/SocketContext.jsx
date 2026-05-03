@@ -8,7 +8,7 @@ export function SocketProvider({ children }) {
     const [connected, setConnected] = useState(false);
 
     useEffect(() => {
-        socketRef.current = io("http://localhost:8000", {
+        socketRef.current = io("https://kuwiz-v7.onrender.com", {
             transports: ["websocket"],
         });
 
